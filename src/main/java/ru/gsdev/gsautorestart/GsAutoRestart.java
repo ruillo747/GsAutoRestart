@@ -31,7 +31,7 @@ public class GsAutoRestart extends JavaPlugin {
     public void onEnable() {
         saveDefaultConfig();
         reloadConfigValues();
-        getLogger().info("AutoRestart включен!");
+        getLogger().info("GsAutoRestart включен!");
     }
 
     private void reloadConfigValues() {
@@ -64,7 +64,7 @@ public class GsAutoRestart extends JavaPlugin {
         if (bossBar != null) {
             bossBar.removeAll();
         }
-        getLogger().info("AutoRestart выключен!");
+        getLogger().info("GsAutoRestart выключен!");
     }
 
     @Override
