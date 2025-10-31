@@ -1,0 +1,32 @@
+# CODED BY RUILLOYT
+# Моменты показа титула (секунды)
+title-display-times: [300, 250, 200, 150, 100, 50, 30, 25, 20, 15, 10, 9, 8, 7, 6, 5, 4, 3, 2, 1]
+
+# Настройки боссбара
+bossbar:
+  title: "&cАвторестарт через: &e{time}"
+  color: RED
+  style: SOLID
+
+# Настройки титлов
+titles:
+  main: "&cРЕСТАРТ СЕРВЕРА"
+  subtitle: "&eЧерез: {time}"
+  final-main: "&4СЕРВЕР ПЕРЕЗАГРУЖАЕТСЯ"
+  final-subtitle: "&cПодождите..."
+  fade-in: 10
+  stay: 20
+  fade-out: 20
+  final-stay: 70
+
+# Сообщения
+messages:
+  no-permission: "&cНет прав!"
+  usage: "&cИспользуйте: /autorestart <время[s,m,h]> или /autorestart отмена"
+  cancelled: "&aОтменено!"
+  no-countdown: "&cНет активного отсчета!"
+  reloaded: "&aКонфиг перезагружен!"
+  already-running: "&cОтсчет уже идет!"
+  invalid-time: "&cНеверное время! Пример: 300s, 5m, 1h"
+  started: "&aРестарт через {time}!"
+  broadcast: "&cАвторестарт через &e{time}&c!"
